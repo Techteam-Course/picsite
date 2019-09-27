@@ -14,6 +14,5 @@ $ ./manage.py runserver
 - [x] Takuya Yamamoto
 <<<<<<< HEAD
   [x] Daito Hirose
-=======
 - [x] Keitaro Oguri
 >>>>>>> 0823ff9db09506f31b57375fb91db53300c32a2f
