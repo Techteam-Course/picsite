@@ -12,3 +12,4 @@ $ ./manage.py runserver
 ```
 
 - [x] Takuya Yamamoto
+- [x] Keitaro Oguri
