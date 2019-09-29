@@ -14,4 +14,4 @@ $ ./manage.py runserver
 - [x] Takuya Yamamoto
 - [x] Daito Hirose
 - [x] Keitaro Oguri
-- [ ] Yusuke Kokubu
+- [x] Yusuke Kokubu
