@@ -8,3 +8,6 @@ class Post(models.Model):
     image = models.ImageField(upload_to='images/')
     created_at = models.DateField(auto_now=True)
     updated_at = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return self.text
