@@ -71,6 +71,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'picsite.wsgi.application'
 
+STATIC_URL = '/static/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
