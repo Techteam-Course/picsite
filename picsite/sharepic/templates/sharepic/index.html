@@ -1,9 +1,13 @@
-<html>
-<head>
+{% extends "sharepic/base.html" %}
 
-</head>
-<body>
-  <h1>Welcomo to Our Picsite!</h1>
-</body>
+{% block section %}
 
-</html>
+  <h2>Photos</h1>
+
+  {% for post in posts %}
+    <div class = "posts">
+      <img src="{{ post.image.url}}" class="photo-img">
+    </div>
+  {% endfor %}
+
+{% endblock %}
